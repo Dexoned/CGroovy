@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewFlix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"> NewFlix </a>
+             </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="dropdown"><a href="movies.html" class="dropbtn">Movies</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Popular</a></li>
+                            <li><a href="#">New Release</a></li>
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Drama</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="form">
+            <div class="header">
+                <h2>Contact Form</h2>
+            </div>
+           <form action="input" method="post" class="floating-box">
+            <div class="content">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="my-input" placeholder="input your name" required>
+            </div>
+            <div class="content">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="my-input" placeholder="input your email" required>
+            </div>
+            <div class="content">
+                <label for="subjek">Subject</label>
+                <input type="text" name="subjek" id="subjek" class="my-input" placeholder="input the subject" required>
+            </div>
+            <div class="content">
+                <label for="desc">Description</label>
+                <textarea name="desc" id="desc" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+           </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>
+                &copy; 2025 NewFlix. All Rights Reserved 
+            </p>
+            <div class="social">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
