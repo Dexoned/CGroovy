@@ -1,3 +1,19 @@
+:root {
+    --b1cd: #500033;
+    --b1cl: #FF0077;
+    --b2cd: #000050;
+    --b2cl: #0033FF;
+    --b3cd: #00501D;
+    --b3cl: #00FF44;
+    --b4cd: #554D00;
+    --b4cl: #FF4E00;
+    --b5cd: #300050;
+    --b5cl: #8000FF;
+    --black: #000;
+    --white: #fff;
+    --grey: #B5B4B4;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -119,8 +135,23 @@ section{
 #hero{
     color: white;
     position: relative;
+    display: flex;
     height: 550px;
     margin-top: 60px;
+}
+
+.carousel ul{
+    width: 1200px;
+    align-items: center;
+    display: flex;
+    margin: 30px;
+    gap: 100px;
+
+}
+
+.carouselitem{
+    width: 400px;
+    size: 50%;
 }
 
 .hero-overlay{
