@@ -427,21 +427,20 @@ footer{
     text-align: center;
 }
 
-.floating-box{
-    background-color: rgb(84, 84, 84);
+.floating-box {
+    background-color: rgb(42, 42, 42);
     width: 450px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
     align-items: center;
     justify-items: center;
- 
 }
 
-.content{
-    background-color: rgb(84, 84, 84);
-    gap: 10px;
-    padding: 10px;
+.content {
+    /* Remove background-color and gap */
+    width: 100%;
+    padding: 10px 0;
 }
 
 .content label{
@@ -457,11 +456,29 @@ footer{
 }
 
 
-.content textarea{
-    width: 390px;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: rgb(201, 201, 201);
+.radio-group {
+    margin: 0;
+    display: flex;
+    gap: 40px;
+    color: #fff;
+    justify-content: flex-start;
+
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.radio-group-label {
+    display: block;
+    padding: 0 0 10px 0;
+    font-size: 16px;
+    color: #fff;
+    /* Remove text-align: center if present */
 }
 
 .my-input{
