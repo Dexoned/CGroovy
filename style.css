@@ -1,13 +1,13 @@
 :root {
-    --b1cd: #500033;
-    --b1cl: #FF0077;
-    --b2cd: #000050;
-    --b2cl: #0033FF;
-    --b3cd: #00501D;
+    --b1cd: #3d3d3d;
+    --b1cl: #b9b9b9;
+    --b2cd: #978c6e;
+    --b2cl: #6c9de7;
+    --b3cd: #23387e;
     --b3cl: #00FF44;
-    --b4cd: #554D00;
+    --b4cd: #2546ff;
     --b4cl: #FF4E00;
-    --b5cd: #300050;
+    --b5cd: #8f8f8f;
     --b5cl: #8000FF;
     --black: #000;
     --white: #fff;
@@ -23,7 +23,7 @@
 
 body{
     color: rgb(237, 237, 237);
-    background-color: black;
+    background-color:  rgb(22, 22, 22);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -33,7 +33,7 @@ body{
 }
 
 header{
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(27, 27, 27);
     color: whitesmoke;
     padding: 15px 0;
     position: fixed;
@@ -231,6 +231,14 @@ section{
     position: relative;
 }
 
+.illustration .inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3rem;
+    display: block;
+}
+
 .prev, .next {
     position: absolute;
     top: 50%;
@@ -366,7 +374,7 @@ section h2{
 }
 
 footer{
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(27, 27, 27);
     border-radius: 5px 5px 0 0;
     color: white;
     text-align: center;       
@@ -389,8 +397,8 @@ footer{
     margin-top: 60px;
 }
 
-/* contact */
-#form{
+/* About Us */
+#aboutus{
     color: white;
     padding: 65px 0;
 }
@@ -398,60 +406,6 @@ footer{
 .header h2{
     font-size: 25px;
     text-align: center;
-}
-
-.floating-box{
-    background-color: rgb(84, 84, 84);
-    width: 450px;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 10px;
-    align-items: center;
-    justify-items: center;
- 
-}
-
-.content{
-    background-color: rgb(84, 84, 84);
-    gap: 10px;
-    padding: 10px;
-}
-
-.content label{
-    display: block;
-    padding: 0 0 10px 0;
-}
-
-.content input{
-    width: 390px;
-    height: 28px;
-    border-radius: 5px;
-    background-color: rgb(201, 201, 201);
-}
-
-
-.content textarea{
-    width: 390px;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: rgb(201, 201, 201);
-}
-
-.my-input{
-    padding-left: 10px;
-}
-
-.floating-box button[type="Submit"]{
-    margin-top: 10px;
-    min-width: 100px;
-    min-height: 28px;
-    border-radius: 5px;
-    color: white;
-    background: linear-gradient(to bottom left, red, rgb(156, 0, 0));
-}
-
-.floating-box button[type="Submit"]:hover{
-    background: linear-gradient(to bottom left, rgb(255, 64, 64), rgb(196, 1, 1));
 }
 
 /* Make only the hero container full width */
