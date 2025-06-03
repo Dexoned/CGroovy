@@ -226,6 +226,7 @@ section{
 .illustration .inner {
     height: 25rem;
     width: 25rem;
+    border-radius: 10%;
     background: var(--b1cl);
     position: relative;
 }
@@ -233,6 +234,7 @@ section{
 .illustration .inner img {
     width: 100%;
     height: 100%;
+    border-radius: 10%;
     object-fit: cover;
     display: block;
 }
