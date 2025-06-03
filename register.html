@@ -3,9 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NewFlix</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"> C'Groovy </a>
+             </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li class="dropdown"><a href="songs.html" class="dropbtn">Song Colletion</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">K-Pop</a></li>
+                            <li><a href="#">R&B</a></li>
+                            <li><a href="#">Pop</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="button"> Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="form">
+            <div class="header">
+                <h2>Contact Form</h2>
+            </div>
+           <form action="input" method="post" class="floating-box">
+            <div class="content">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="my-input" placeholder="input your name" required>
+            </div>
+            <div class="content">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="my-input" placeholder="input your email" required>
+            </div>
+            <div class="content">
+                <label for="subjek">Password</label>
+                <input type="text" name="subjek" id="subjek" class="my-input" placeholder="input the your password" required>
+            </div>
+            <div class="content">
+                <label for="subjek">Age</label>
+                <input type="text" name="subjek" id="subjek" class="my-input" placeholder="input your age" required>
+            </div>
+
+            <div class="radio-group">
+                <label for="subjek">Gender</label>
+                    <label>
+                        <input type="radio" name="gender" value="Male" required> Male
+                    </label>
     
+                    <label style="margin-left: 10px;">
+                        <input type="radio" name="gender" value="Female" required> Female
+                    </label>
+                </div>
+            <button type="submit">Register</button>
+           </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>
+                &copy; 2025 C'Groovy. All Rights Reserved 
+            </p>
+            <div class="social">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
