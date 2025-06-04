@@ -401,11 +401,58 @@ footer{
 #aboutus{
     color: white;
     padding: 65px 0;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .header h2{
     font-size: 25px;
     text-align: center;
+}
+
+#aboutus .background{
+    margin-bottom: 50px;
+}
+
+#aboutus h3{
+    margin-bottom: 5px;
+}
+
+#aboutus h4{
+    margin-bottom: 5px;
+} 
+
+#aboutus .teammem{
+    margin-bottom: 50px;
+    justify-self: center
+}
+
+#aboutus .teammem h3{
+    text-align: center;
+}
+
+#aboutus .grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+}
+
+#aboutus .grid .member{
+    text-align: center;
+}
+
+#aboutus .media{
+    margin-bottom: 20px;
+}
+
+#aboutus .journeyprog{
+    justify-content: center;
+    text-align: center;
+}
+
+#aboutus .journeyprog h3{
+    margin-bottom: 20px;
 }
 
 /* Make only the hero container full width */
