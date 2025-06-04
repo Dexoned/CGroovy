@@ -486,7 +486,7 @@ footer{
 
 .content {
     /* Remove background-color and gap */
-    width: 100%;
+    min-width: 100%;
     padding: 10px 0;
 }
 
@@ -496,33 +496,30 @@ footer{
 }
 
 .content input{
-    width: 390px;
+    width: 100%;
     height: 28px;
     border-radius: 5px;
     background-color: rgb(201, 201, 201);
 }
 
-
 .radio-group {
-    margin: 0;
     display: flex;
-    gap: 40px;
     color: #fff;
     justify-content: flex-start;
+    gap: 20px;
 
 }
 
 .radio-group label {
     display: flex;
     align-items: center;
-    gap: 5px;
     font-size: 14px;
     cursor: pointer;
+    gap: 5px;
 }
 
 .radio-group-label {
     display: block;
-    padding: 0 0 10px 0;
     font-size: 16px;
     color: #fff;
     /* Remove text-align: center if present */
