@@ -52,7 +52,17 @@ header .container{
     align-items: center;
 }
 
-
+.button-container{
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 12px 25px;
+    display: inline-block;
+    text-decoration: none;
+    align-items: center;
+    justify-content: baseline;
+    font-size: 20px;
+    border-radius: 250px;    
+}
 
 .logo a{
     color: white;
