@@ -409,6 +409,13 @@ section h2{
     width: 300px;
     height: auto;
     transition: transfrom 0.5s ease;
+    color: white;
+    text-decoration: none;
+}
+
+.grid-item a{
+    color: white;
+    text-decoration: none;
 }
 
 .grid-item:hover{
@@ -807,22 +814,37 @@ footer{
 
 .song-details {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     color: white;
-}
-
-.song-details img {
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
+.song-details .details{
+    margin-top: 0;
+    margin-bottom: 70px;
+    padding: 0px 0px 0px 30px;
+    /* background-color: rgb(61, 61, 61); */
+}
+
+.song-details img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgb(0, 0, 0);
+}
+
+.song-lyrics h2 {
+    font-size: 35px;
+}
 .song-lyrics{
-    margin-top: 20px;
+    margin-top: 10px;
+    max-width: 100px;
+    overflow:hidden;
+    text-overflow: ellipsis;
     padding: 20px;
     background-color: rgb(42, 42, 42);
     border-radius: 10px;
@@ -831,7 +853,8 @@ footer{
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin-left: 490px;
+    justify-self: center;
+    
 }
 
 /* r&b */
