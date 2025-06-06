@@ -50,3 +50,26 @@ trail.forEach((dot, idx) => {
 
 // Auto slide
 start = setInterval(() => slide("increase"), interval);
+
+$(document).ready(function() {
+    // Add click handlers for the Check Now buttons
+    $('.box1 button').on('click', function() {
+        window.location.href = '../View/sd.html?id=2'; // Bye Bye Bye
+    });
+
+    $('.box2 button').on('click', function() {
+        window.location.href = '../View/sd.html?id=5'; // Best Part
+    });
+
+    $('.box3 button').on('click', function() {
+        window.location.href = '../View/sd.html?id=9'; // Hype Boys
+    });
+
+    $('.box4 button').on('click', function() {
+        window.location.href = '../View/sd.html?id=1'; // I Like Me Better
+    });
+
+    $('.box5 button').on('click', function() {
+        window.location.href = '../View/sd.html?id=7'; // SOBER
+    });
+});
