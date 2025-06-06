@@ -804,3 +804,139 @@ footer{
         0 25px 15px -10px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.1s;
 }
+
+/* Journey Progress Cards */
+.journeyprog .options {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    overflow: hidden;
+    min-width: 600px;
+    max-width: 900px;
+    width: calc(100% - 100px);
+    height: 400px;
+    margin: 0 auto;
+}
+
+.journeyprog .option {
+    position: relative;
+    overflow: hidden;
+    min-width: 60px;
+    margin: 10px;
+    background: #2c2c2c;
+    background-size: auto 120%;
+    background-position: center;
+    border: 2px solid #ffffff3d;
+    cursor: pointer;
+    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+    border-radius: 30px;
+}
+
+.journeyprog .option.active {
+    flex-grow: 10000;
+    transform: scale(1);
+    max-width: 600px;
+    margin: 0px;
+    border-radius: 40px;
+    background-size: auto 100%;
+}
+
+.journeyprog .option:not(.active) {
+    flex-grow: 1;
+}
+
+.journeyprog .option .shadow {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 120px;
+    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.1) 0%,
+        rgba(0,0,0,0.5) 50%,
+        rgba(0,0,0,0.8) 100%
+    );
+}
+
+.journeyprog .option .label {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+    left: 20px;
+    height: 40px;
+    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+}
+
+.journeyprog .option .label .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 40px;
+    max-width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+    color: var(--defaultBackground);
+}
+
+.journeyprog .option .label .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    color: white;
+    white-space: pre;
+}
+
+.journeyprog .option .label .info .main {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.journeyprog .option .content {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.journeyprog .option.active .content {
+    opacity: 1;
+}
+
+.journeyprog .option .content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.journeyprog .option .content p {
+    font-size: 16px;
+    line-height: 1.4;
+    max-width: 80%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.fas{
+    color: black;
+    font-weight: bold;
+}
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .journeyprog .options {
+        min-width: 100%;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .journeyprog .option {
+        min-width: 50px;
+        margin: 5px;
+    }
+}
