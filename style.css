@@ -56,9 +56,15 @@ header .container{
 
 .logo a{
     color: white;
-    font-size: 45px;
+    font-size: 40px;
     text-decoration: none;
     font-weight: bold;
+    /* Gradient text color */
+    background: linear-gradient(to right, #ff4e00, #ff0084, #00cfff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
 nav ul{
@@ -337,6 +343,44 @@ section h2{
    margin-bottom: 40px;
    font-size: 25px;
 }
+
+ .welcome{
+    color: white;
+    padding: 65px 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+ }
+
+ .welcome h2{
+    font-size: 50px;
+    /* Gradient text color */
+    background: linear-gradient(to right, #ff4e00, #ff0084, #00cfff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+ }
+
+ .welcome p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+ }
+
+ .welcome .button{
+    color: white;
+    background-image: linear-gradient(to left, rgb(100, 0, 0), rgb(255, 0, 0));
+    box-shadow: 200px rgba(255, 255, 255, 0.5);
+    padding: 12px 25px;
+    display: inline-block;
+    text-decoration: none;
+    align-items: center;
+    justify-content: baseline;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+ }
 
 .grid{
     max-width: 1200px;
