@@ -1046,3 +1046,65 @@ footer{
         margin: 5px;
     }
 }
+
+
+.song-player {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.song-player audio {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.song-desc {
+    max-width: 800px; /* Same width as lyrics section */
+    margin: 2rem auto; /* Centers the container */
+    padding: 0 20px; /* Adds some padding on the sides */
+}
+
+.song-desc h2 {
+    text-align: center; /* Centers the heading */
+    margin-bottom: 1rem;
+}
+
+.song-desc p {
+    text-align: left; /* Aligns the description text to the left */
+    line-height: 1.6; /* Improves readability */
+}
+
+/* Make sure song-lyrics has matching width */
+.song-lyrics {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(42, 42, 42);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    text-align: left;
+}
+
+/* Form validation styles */
+.my-input.error {
+    border-color: #ff0000;
+    background-color: #fff0f0;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 0.8em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.radio-group.error {
+    padding: 5px;
+    background-color: #fff0f0;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+}

@@ -28,24 +28,19 @@
             </nav>
         </div>
     </header>
-
         <section>
             <div class="movie-list">
                 <div class="container">
                     <h1>Song Collections</h1>
                     <h2>Pop</h2>
                     <div class="grid">
-                            <div class="grid-item">
-                                <a href="sd.html">
-                                    <img src="../Images/Pop/ab67616d0000b273bdea30b86b37142ec99deb78.jpg" alt="mockup">
-                                    <h3>I Like Me Better</h3>
-                                    <p>Lauv || 03:18</p>
-                                    <div class="short">
-                                        <p>A catchy electropop song about the transformative power of love. Released in 2017, it captures the excitement of new romance and self-discovery.</p>
-                                    </div>
-                                </a>
+                            <div class="grid-item" data-song-id="1">
+                                <!-- Remove the <a> tag and just keep contents -->
+                                <img src="../Images/Pop/ab67616d0000b273bdea30b86b37142ec99deb78.jpg" alt="mockup">
+                                <h3>I Like Me Better</h3>
+                                <p>Lauv || 03:18</p>
                             </div>
-                            <div class="grid-item">
+                            <div class="grid-item" data-song-id="2">
                                 <img src="../Images/Pop/https___images.genius.com_63c25bab36a2daf09a319c7e9318d68e.1000x1000x1.png" alt="mockup">
                                 <h3>Bye Bye Bye</h3>
                                 <p>NSYNC || 03:21</p>
@@ -53,7 +48,8 @@
                                     <p>A powerhouse dance-pop anthem about breaking free from a toxic relationship. Released in 2000, it became one of NSYNC's signature hits.</p>
                                 </div>
                             </div>
-                            <div class="grid-item">
+                            <!-- Add data-song-id to all other items -->
+                            <div class="grid-item" data-song-id="3">
                                 <img src="../Images/Pop/https___images.genius.com_72c7d1ebbfd5cd2adf3c480d58b3cabc.600x600x1.jpg" alt="mockup">
                                 <h3>Last Friday Night</h3>
                                 <p>Katy Perry || 03:51</p>
@@ -64,7 +60,7 @@
                      </div>
                      <h2>R&B</h2>
                     <div class="grid">
-                        <div class="grid-item">
+                        <div class="grid-item" data-song-id="4">
                             <img src="../Images/R&B/https___images.genius.com_00cc579aca9786a2d1ba1c995f828b44.1000x1000x1.png" alt="mockup">
                             <h3>Glimpse of Us</h3>
                             <p>Joji || 03:54</p>
@@ -72,7 +68,7 @@
                                 <p>A soulful ballad reflecting on memories of a past love. Released in 2022, Joji's emotive vocals capture longing and bittersweet nostalgia.</p>
                             </div>
                         </div>
-                        <div class="grid-item">
+                        <div class="grid-item" data-song-id="5">
                             <img src="../Images/R&B/https___images.genius.com_211bc5c59b071c5613ce9ce82d70f6eb.1000x1000x1.png" alt="mockup">
                             <h3>Best Part</h3>
                             <p>Daniel Caesar || 03:30</p>
@@ -80,7 +76,7 @@
                                 <p>A smooth, romantic duet featuring H.E.R., celebrating the comfort and joy found in true love. Released in 2017, it's a modern R&B classic.</p>
                             </div>
                         </div>
-                        <div class="grid-item">
+                        <div class="grid-item" data-song-id="6">
                             <img src="../Images/R&B/https___images.genius.com_d725e94ee1e486f1ecd83b46a61dff6c.1000x1000x1.png" alt="mockup">
                             <h3>Heartbreak Anniversary</h3>
                             <p>Giveon || 03:17</p>
@@ -91,7 +87,7 @@
                     </div>
                     <h2>K-Pop</h2>
                     <div class="grid">
-                        <div class="grid-item">
+                        <div class="grid-item" data-song-id="7">
                             <img src="../Images/Kpop/ab67616d0000b2735c2254d6d7618143e23f7fdb.jpg" alt="mockup">
                             <h3>SOBER</h3>
                             <p>BIGBANG || 03:58</p>
@@ -99,7 +95,7 @@
                                 <p>An energetic K-pop track blending rock and EDM elements. Released in 2015, it explores themes of escapism and emotional struggle.</p>
                             </div>
                         </div>
-                        <div class="grid-item">
+                        <div class="grid-item" data-song-id="8">
                             <img src="../Images/Kpop/artworks-000084792366-7oqcdc-t500x500.jpg" alt="mockup">
                             <h3>눈, 코, 입 (Eyes Nose Lips)</h3>
                             <p>태양 (TaeYang) || 03:53</p>
@@ -107,7 +103,7 @@
                                 <p>A heartfelt ballad about longing and lost love. Released in 2014, TaeYang's powerful vocals convey deep emotion and vulnerability.</p>
                             </div>
                         </div>
-                        <div class="grid-item">
+                        <div class="grid-item" data-song-id="9">
                             <img src="../Images/Kpop/https___images.genius.com_008470d3faefd4df5d16937f926bf6d4.1000x1000x1.jpg" alt="mockup">
                             <h3>Hype Boys</h3>
                             <p>New Jeans || 02:58</p>
@@ -133,7 +129,8 @@
                 </div>
             </div>
         </footer>
-        
+    <script src="../script/jquery-3.6.0.js"></script>
+    <script src="../script/sd.js"></script>
 </body>
 </html>
 
