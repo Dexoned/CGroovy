@@ -512,16 +512,13 @@ footer{
 
 #aboutus .journeyprog{
     justify-content: center;
+}
+
+#aboutus .journeyprog h3{
+    margin-bottom: 20px;
     text-align: center;
 }
 
-#aboutus .journeyprog h3{
-    margin-bottom: 20px;
-}
-
-#aboutus .journeyprog h3{
-    margin-bottom: 20px;
-}
 #aboutus .journeyprog img {
     max-width: 100%; /* Make image responsive */
     height: auto;    /* Maintain aspect ratio */
@@ -986,15 +983,11 @@ footer{
 .journeyprog .option .label .info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Changed from center */
     margin-left: 10px;
     color: white;
     white-space: pre;
-}
-
-.journeyprog .option .label .info .main {
-    font-weight: bold;
-    font-size: 1.2rem;
+    text-align: left; /* Added explicit left alignment */
 }
 
 .journeyprog .option .content {
@@ -1005,6 +998,7 @@ footer{
     color: white;
     opacity: 0;
     transition: opacity 0.5s ease;
+    text-align: left; /* Added explicit left alignment */
 }
 
 .journeyprog .option.active .content {
@@ -1015,6 +1009,7 @@ footer{
     font-size: 24px;
     margin-bottom: 10px;
     color: white;
+    text-align: left; /* Added explicit left alignment */
 }
 
 .journeyprog .option .content p {
@@ -1022,11 +1017,12 @@ footer{
     line-height: 1.4;
     max-width: 80%;
     color: rgba(255, 255, 255, 0.8);
+    text-align: left; /* Added explicit left alignment */
 }
 
 .fas{
+    font-size: 20px;
     color: black;
-    font-weight: bold;
 }
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
