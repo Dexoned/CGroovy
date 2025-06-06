@@ -452,10 +452,30 @@ footer{
 #aboutus .journeyprog{
     justify-content: center;
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; /* Add padding for smaller screens */
 }
 
-#aboutus .journeyprog h3{
-    margin-bottom: 20px;
+#aboutus .journeyprog img {
+    max-width: 100%; /* Make image responsive */
+    height: auto;    /* Maintain aspect ratio */
+    display: block;  /* Remove any extra space below image */
+    margin: 0 auto; /* Center the image */
+    border-radius: 8px; /* Optional: adds slight rounded corners */
+}
+
+/* Add media queries for different screen sizes */
+@media screen and (max-width: 768px) {
+    #aboutus .journeyprog {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #aboutus .journeyprog {
+        padding: 0 10px;
+    }
 }
 
 @property --rotate {
