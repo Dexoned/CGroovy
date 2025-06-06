@@ -833,3 +833,52 @@ footer{
     justify-content: center;
     margin-left: 490px;
 }
+
+/* r&b */
+
+.genre-list h1{
+    margin-top: 150px;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+ }
+
+.genre-grid{
+    justify-content: center;
+    max-width: 1200px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin: 30px;
+    margin-bottom: 220px;
+}
+
+.genre-grid-item{
+    background-color: rgb(35, 35, 35);
+    border: 1px solid rgb(38, 38, 38);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    height: auto;
+    transition: transfrom 0.5s ease;
+}
+
+.genre-grid-item:hover{
+    transform:scale(1.05);
+}
+
+.genre-grid-item img{
+    width: 100%;
+    height: auto;
+}
+
+.genre-grid-item h3{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.genre-grid-item p{
+    margin: 0 10px 20px;
+    font-size: 16px;
+}
