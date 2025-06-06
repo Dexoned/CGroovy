@@ -826,6 +826,10 @@ footer{
     padding: 0px 0px 0px 30px;
     /* background-color: rgb(61, 61, 61); */
 }
+.song-info{
+    display: flex;
+    gap: 10px;
+}
 
 .song-details img {
     width: 300px;
