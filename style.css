@@ -509,6 +509,18 @@ footer{
     border-radius: 8px; /* Optional: adds slight rounded corners */
 }
 
+#aboutus .sosmed{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#aboutus .sosmed img{
+    height: 20px;
+    width: 20px;
+    background-color: wheat;
+    object-fit: fill;
+}
+
 /* Add media queries for different screen sizes */
 @media screen and (max-width: 768px) {
     #aboutus .journeyprog {
