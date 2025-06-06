@@ -350,7 +350,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Best Part",
             artist: "Daniel Caesar",
             image: "../Images/R&B/https___images.genius.com_211bc5c59b071c5613ce9ce82d70f6eb.1000x1000x1.png",
-            audio: "../Songs/Daniel Caesar – Best Part (feat. H.E.R.) Lyrics - Genius Lyrics.mp3",
+            audio: "../Songs/Daniel Caesar – Best Part Lyrics - Genius Lyrics.mp3",
             duration: "03:30",
             genre: "R&B",
             lyrics: `[Intro: H.E.R.]
@@ -432,7 +432,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Heartbreak Anniversary",
             artist: "Giveon",
             image: "../Images/R&B/https___images.genius.com_d725e94ee1e486f1ecd83b46a61dff6c.1000x1000x1.png",
-            audio: "../Songs/Giveon – Heartbreak Anniversary Lyrics - Genius Lyrics.mp3",
+            audio: "../Songs/GIVĒON – HEARTBREAK ANNIVERSARY Lyrics - Genius Lyrics.mp3",
             duration: "03:17",
             genre: "R&B",
             lyrics: `[Verse 1]
@@ -499,7 +499,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "SOBER",
             artist: "BIGBANG",
             image: "../Images/Kpop/ab67616d0000b2735c2254d6d7618143e23f7fdb.jpg",
-            audio: "../Songs/BIGBANG – SOBER (English Translation) Lyrics - Genius English Translations.mp3",
+            audio: "../Songs/BIGBANG (빅뱅) – 맨정신 (SOBER) Lyrics - Genius Lyrics.mp3",
             duration: "03:58",
             genre: "K-Pop",
             lyrics: `[Verse 1: G-Dragon, Seungri]
@@ -588,7 +588,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "눈, 코, 입 (Eyes Nose Lips)",
             artist: "태양 (TaeYang)",
             image: "../Images/Kpop/artworks-000084792366-7oqcdc-t500x500.jpg",
-            audio: "../Songs/태양 (TaeYang) - 눈, 코, 입 (Eyes Nose Lips) (Romanized) Lyrics - Genius Romanizations.mp3",
+            audio: "../Songs/TAEYANG (태양)  Eyes, Nose, Lips (눈, 코, 입) (Color Coded HanRomEng Lyrics).mp3",
             duration: "03:53",
             genre: "K-Pop",
             lyrics: `[Verse 1]
